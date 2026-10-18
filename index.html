@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="page_text">
+        <h1 class="text">Enter City Name and press on search button to get weather information</h1>
+    </div>
+    <div class="card">
+
+        <div class="search">
+            <form>
+            <input type="text" id="input" placeholder="enter city name" spellcheck="false" required>
+             <button type="submit"  id="search_button"><img src="images/search.png"></button>
+            </form>  
+        </div>
+
+        <div class="error">
+
+            <p id="error-message">Something went wrong!</p>
+        </div>
+      <div class="weather">
+     <img src="images/rain.png" id="weather-icon">
+        <h1 id="temp">22°c</h1>
+        <h2 id="city">New York</h2>
+        <div class="details">
+            <div class="col">
+                <img src="images/humidity.png">
+                <div>
+                    <p id="humidity">50%</p>
+                    <p class="parameters">Humidity</p>
+                </div>
+            </div>
+              <div class="col">
+                <img src="images/wind.png">
+                <div>
+                    <p id="wind">15km/h</p>
+                    <p class="parameters">Wind Speed</p>
+                </div>
+            </div>
+        </div>
+
+      </div>
+        
+    </div>
+    
+
+
+    <script src="first.js"></script>
+</body>
+</html>

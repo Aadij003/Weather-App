@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(1, 13, 51);
+}
+
+.card{
+   width:90%;
+   max-width: 470px;
+   background: linear-gradient(135deg,rgb(11, 65, 241),rgb(52, 194, 212));
+   color:white ;
+   margin: 100px auto 100px;
+   
+   border-radius: 20px;
+   padding: 40px;
+   text-align: center;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    background: rgb(247, 251, 255);
+    color: #5c1e1e;
+    padding:10px 20px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 18px;
+    margin-right: 16px;
+    width: 314px;
+}
+
+.search button{
+      border: 0;
+    outline: 0;
+    background: rgb(247, 251, 255);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.search form{
+    display: flex;
+    align-items: center;
+}
+
+.search button img{
+    width: 16px;
+}
+
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-size: 30px;
+}
+
+.col img{
+    width: 50px;
+    margin-right: 10px;
+}
+
+.humidity, .wind{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+
+}
+
+.weather{
+    display: none;
+}
+
+.text{
+    font-weight: 300;
+    text-align: center;
+    color: rgb(207, 182, 240);
+}
+
+.page_text{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.parameters{
+    font-size: 20px;
+    margin-top: 4px;
+}
+
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 15px;
+    font-style: italic;
+    font-weight:100px;
+    display: none;
+}
