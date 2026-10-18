@@ -4,7 +4,7 @@ A weather application built using HTML, CSS and JavaScript that displays current
 
 # Live Demo
 
-[Click here to use the Weather App](weather-app-six-topaz-38.vercel.app)
+[Click here to use the Weather App](https://weather-app-six-topaz-38.vercel.app/)
 
 # Features
 
